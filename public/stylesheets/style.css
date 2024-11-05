@@ -1,0 +1,14 @@
+#logo_icono {
+    background-color: white;
+    border-radius: 0.2vw;
+}
+
+#prueba {
+    background-image: url("public/images/banner_2.jpg");
+}
+
+#example-collapse-navbar{
+        border-radius: 0.5vw;
+        padding-left: 2vw;
+        
+}
