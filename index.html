@@ -76,6 +76,12 @@
                 href="#significado"
                 >Importancia</a>
             </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#ultimasnotas"
+                >Ultimas notas</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -91,7 +97,7 @@
         >
           <span
             id="blackOverlay"
-            class="w-full h-full  opacity-25 bg-black"
+            class="w-full h-full absolute opacity-50 bg-black"
           ></span>
         </div>
         <div class="container relative mx-auto">
@@ -99,11 +105,29 @@
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="">
                 <h1 class="text-white font-semibold text-5xl">
-                  Your Lie in April
+                  Shigatsu Wa Kimi No Uso: 
                 </h1>
-                <p class="mt-4 text-lg text-gray-300">
-                  I met a girl under a full bloomed cherry blossom and my fate has begun to change.
+                <h3 class="text-white font-semibold text-5xl">
+                Mi serie favorita
+                </h3>
+                <p class="mt-4 text-lg text-gray-300 py-6">
+                  "I met a girl under a full bloomed cherry blossom and my fate has begun to change."
                 </p>
+
+                <button
+                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                type="button"
+                style="transition: all 0.15s ease 0s;"
+              >
+                Sitio oficial (JP)
+              </button>
+              <button
+              class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+              type="button"
+              style="transition: all 0.15s ease 0s;"
+            >
+              Sitio oficial (EN)
+            </button>
               </div>
             </div>
           </div>
@@ -377,12 +401,7 @@
 
                 <p class="text-lg leading-relaxed text-gray-600 text-justify py-2">
                   Me enseño a que no importa cuán oscuro sea el panorama, siempre hay un motivo para levantarse
-                  y seguir adelante. Solo hay que ver aquello que tenemos en nuestro corazón.
-                </p>
-
-                <p class="text-lg leading-relaxed text-gray-600 text-justify py-2">
-                  Que aunque no podamos remediar los errores que cometimos en el pasado, podemos aprender de ellos 
-                  y mejorar en el día a día. No es facil, pero es posible.
+                  y seguir adelante. Solo hay que ver aquello que tenemos en nuestro corazón, y que siempre podemos ser mejores.
                 </p>
 
                 <p class="text-lg leading-relaxed text-gray-600 text-justify py-2">
@@ -396,26 +415,31 @@
         </div>
       </section>
 
-      <section class="pb-20 block bg-gray-900">
-        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pt-20">
+      <section id="ultimasnotas" class=" block bg-pink-100">
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-32 pt-20">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
-              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
+              <h2 class="text-4xl font-semibold ">¿Qué estas esperando para darle una oportunidad?</h2>
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500 text-center text-justify">
+                A veces, una historia puede tocar tu alma de una manera que ni siquiera imaginaste. Your Lie in April es una obra que va más allá de la música y el romance; es una celebración de la vida, de la lucha y de la belleza de seguir adelante. 
+
+              </p>
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500 text-center text-justify">
+                Cada nota, cada mirada, cada emoción en esta serie tiene el poder de cambiarte.
+
+                No pierdas la oportunidad de vivir este viaje emocional que puede darle un nuevo color a tu vida. La música y el amor te guiarán, y quizás, te descubrirás a ti mismo en el proceso.
+                ¡Espero te guste! 
               </p>
             </div>
           </div>
-          <div class="flex flex-wrap mt-12 justify-center">
+          <div class="flex flex-wrap mt-12 justify-center pb-32">
             <div class="w-full lg:w-3/12 px-4 text-center">
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
-                <i class="fas fa-medal text-xl"></i>
+              <i class="fas fa-star text-xl"></i>
               </div>
-              <h6 class="text-xl mt-5 font-semibold text-white">
+              <h6 class="text-xl mt-5 font-semibold ">
                 Excelent Services
               </h6>
               <p class="mt-2 mb-4 text-gray-500">
@@ -427,9 +451,9 @@
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
-                <i class="fas fa-poll text-xl"></i>
+              <i class="fas fa-star text-xl"></i>
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">
+              <h5 class="text-xl mt-5 font-semibold ">
                 Grow your market
               </h5>
               <p class="mt-2 mb-4 text-gray-500">
@@ -441,28 +465,25 @@
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
-                <i class="fas fa-lightbulb text-xl"></i>
+              <i class="fas fa-star text-xl"></i>
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+              <h5 class="text-xl mt-5 font-semibold">Launch time</h5>
               <p class="mt-2 mb-4 text-gray-500">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
             </div>
-          </div>
+            <div class="w-full lg:w-6/12 p-2">
+              <img alt="Shigatsu_personajes" src="./public/images/kxk_03.webp" class="shadow-lg rounded max-w-full h-auto mx-auto">
+            
+            </div>   
+          </div> 
+                
         </div>
       </section>
-      <section class=" block py-24 lg:pt-0 bg-gray-900">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-            <div class="w-full lg:w-6/12 px-4">
 
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
-    <footer class=" bg-gray-300 pt-8 pb-6">
+    <footer class=" bg-gray-300 pt-12 pb-6">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px;"
