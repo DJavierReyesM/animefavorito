@@ -18,11 +18,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
-    <link
-    rel = "stylesheet"
-    href="public/stylesheets/style.css"
-    >
-
     <title>Mi Anime Favorito | Shigatsu Wa Kimi No Uso</title>
   </head>
   <body class="text-gray-800 antialiased">
@@ -38,7 +33,7 @@
           <a
             class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="#"
-            ><img id="logo_icono" src="public/images/logo.png" alt="Shigatsu Wa Kimi No Uso" class="h-10 w-auto"></a
+            ><img id="logo_icono" src="public/images/logo.png" alt="Shigatsu Wa Kimi No Uso" class="h-10 w-auto bg-white rounded"></a
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
@@ -48,7 +43,7 @@
           </button>
         </div>
         <div
-          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden rounded pl-3"
           id="example-collapse-navbar"
         >
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
@@ -58,22 +53,36 @@
                 Historia
               </li>
             </a>
-            <li class="flex items-center">
-              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#personajes">Personajes</a>
-            </li>
-            <li class="flex items-center">
-              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#oped">Openings/Endings</a>
-            </li>
-            <li class="flex items-center">
-              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#significado">Importancia</a>
-            </li>
-            <li class="flex items-center">
-              <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#ultimasnotas">Ultimas notas</a>
-            </li>
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#personajes">
+              <li class="flex items-center">
+                Personajes
+              </li>
+            </a>
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#oped">
+              <li class="flex items-center">
+                Openings/Endings
+              </li>
+            </a>
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#significado">
+              <li class="flex items-center">
+                Importancia
+              </li>
+            </a>
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#ultimasnotas">
+              <li class="flex items-center">
+                Ultimas notas
+              </li>
+            </a>
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#contacto">
+              <li class="flex items-center">
+                Contacto
+              </li>
+            </a>
           </ul>
         </div>
       </div>
@@ -95,31 +104,33 @@
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="">
-                <h1 class="text-white font-semibold text-5xl">
+              <div class="my-6">
+                <h1 class="font-serif text-white font-semibold text-5xl">
                   Shigatsu Wa Kimi No Uso: 
                 </h1>
-                <h3 class="text-white font-semibold text-5xl">
+                <h3 class="text-white font-semibold text-5xl py-2 my-2">
                 Mi serie favorita
                 </h3>
-                <p class="mt-4 text-lg text-gray-300 py-6">
+                <p class="mt-4 text-lg font-semibold text-gray-300 py-6 italic mb-20">
                   "I met a girl under a full bloomed cherry blossom and my fate has begun to change."
                 </p>
-
-                <button
-                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                type="button"
-                style="transition: all 0.15s ease 0s;"
-              >
-                Sitio oficial (JP)
-              </button>
-              <button
-              class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-              type="button"
-              style="transition: all 0.15s ease 0s;"
-            >
-              Sitio oficial (EN)
-            </button>
+                <p class="mt-4 text-lg text-gray-300 font-medium italic mt-20">
+                  Con esa frase permíteme introducirte en esta bella historia...
+                </p>
+                <!--<a href="https://www.kimiuso.jp/" target="_blank">
+                  <button
+                    class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                    type="button" style="transition: all 0.15s ease 0s;">
+                    Sitio oficial del anime (JP)
+                  </button>
+                </a>
+                <a href="https://www.yourlieinapril.com/" target="_blank">
+                  <button
+                    class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                    type="button" style="transition: all 0.15s ease 0s;">
+                    Sitio oficial del anime (EN)
+                  </button>
+                </a>-->
               </div>
             </div>
           </div>
@@ -154,7 +165,7 @@
                 class="flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
               >
                 <img
-                  alt="..."
+                  alt="Kaori y Kousei - 1"
                   src="public/images/kxk_01.jpg"
                   class="h-[50vh] h-[50vh] align-middle rounded-t-lg"
                 />
@@ -173,7 +184,7 @@
           <div class="flex flex-wrap justify-center text-center mb-12">
             <div class="w-full lg:w-6/12 p-2">
               <h2 class="text-4xl font-semibold p-3 my-2">Personajes</h2>
-              <img alt="Shigatsu_personajes" src="./public/images/banner_2.jpg" class="shadow-lg rounded max-w-full h-auto mx-auto">
+              <img alt="Shigatsu_personajes - 2 " src="./public/images/banner_2.jpg" class="shadow-lg rounded max-w-full h-auto mx-auto">
             
             </div>
             
@@ -273,7 +284,7 @@
             <h2 class="text-3xl font-semibold my-4">Openings/Endings</h2>
             <p class="text-lg leading-relaxed text-gray-600">
               La serie cuenta con 2 temas de apertura (openings) y 2 temas de cierre (endings) que se
-              presentan a lo largo de los 23 capitulos de la misma.
+              presentan a lo largo de los 22 capítulos + 1 OVA (Original Video Animation) de la misma.
             </p>
           </div>
         </div>
@@ -373,11 +384,11 @@
       <section id="significado" class="py-14 my-14">
         
         <div class="container mx-auto px-4 py-16">
-          <!--<h3 class="text-4xl text-center font-semibold my-3 py-6 lg:hidden md:hidden">Importancia personal</h3>-->
+       
           <div class="items-center flex flex-wrap">
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
               <img
-                alt="..."
+                alt="Kaori y Kousei - 2"
                 class="max-w-full rounded-lg shadow-lg"
                 src="./public/images/kxk_02.jpg"
               />
@@ -471,7 +482,7 @@ Así es como la gente como nosotros sale adelante.
           
           <div class="flex flex-col items-center justify-center py-6">
             <div class="w-full lg:w-6/12 px-4">
-              <img alt="Shigatsu_personajes" src="./public/images/kxk_03.webp" class="shadow-lg rounded max-w-full h-auto mx-auto">
+              <img alt="Kaori y Kousei - 3" src="./public/images/kxk_03.webp" class="shadow-lg rounded max-w-full h-auto mx-auto">
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center my-6">
               <div
@@ -492,11 +503,11 @@ Así es como la gente como nosotros sale adelante.
       </section>
 
     </main>
-    <footer class=" bg-gray-300 pt-12 pb-6">
+    <footer id="contacto" class=" bg-gray-300 pt-12 pb-6">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold">Contácto</h4>
+            <h4 class="text-3xl font-semibold">Contacto</h4>
             <h5 class="text-lg mt-2 mb-2 text-gray-700">
              Si tienes alguna duda, ¡no dudes en contactarme!
             </h5>
@@ -532,75 +543,33 @@ Así es como la gente como nosotros sale adelante.
               <div class="w-full lg:w-4/12 px-4 ml-auto my-2">
                 <span
                   class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                  >Useful Links</span
+                  >Links recomendados</span
                 >
                 <ul class="list-unstyled">
                   <li>
                     <a
                       class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation"
-                      >About Us</a
+                      href="https://www.kimiuso.jp/"
+                      >Sitio oficial del anime (JP)</a
                     >
                   </li>
                   <li>
                     <a
                       class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com"
-                      >Blog</a
+                      href="https://www.yourlieinapril.com/"
+                      >Sitio oficial del anime (EN)</a
                     >
                   </li>
                   <li>
                     <a
                       class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial"
-                      >Github</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free"
-                      >Free Products</a
+                      href="https://shigatsu-wa-kimi-no-uso.fandom.com/es/wiki/Shigatsu_wa_Kimi_no_Uso_(Anime)"
+                      >Wiki de la serie</a
                     >
                   </li>
                 </ul>
               </div>
-              <div class="w-full lg:w-4/12 px-4 ml-auto my-2">
-                <span
-                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                  >Useful Links</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation"
-                      >About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com"
-                      >Blog</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial"
-                      >Github</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free"
-                      >Free Products</a
-                    >
-                  </li>
-                </ul>
-              </div>
+
               <div class="w-full lg:w-4/12 px-4 my-2">
                 <span
                   class="block uppercase text-gray-600 text-sm font-semibold mb-2"
